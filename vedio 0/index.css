@@ -1,0 +1,29 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(254, 179, 179), rgb(152, 181, 218));;
+}
+
+ul{
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+.logo{
+    display: flex;
+    padding-top: 16px;
+}
+
+.logo img{
+    width: 22px;
+    height: 22px;
+}
+.flower{
+    width: 100%;
+    height: calc(75vh - 50px);
+    object-fit: cover;
+}

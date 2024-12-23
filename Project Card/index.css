@@ -1,0 +1,80 @@
+
+ body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .cards{
+  margin: 15px;
+  padding: 10px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+ .cardContainer{
+
+      width: 300px;
+      background-color: bisque;
+      border-radius: 30px;
+ }
+ .cardContainer img{
+   width: 280px;
+   padding: 10px;
+   border-radius: 30px;
+      
+ }
+ .cardContainer .title{
+   font-size: 22px;
+   font-weight: 700;
+   color: brown;
+   margin: 5px;
+ }
+ .cardContainer #category{
+   color: gray;
+   font-weight: 600;
+   margin: 0;
+   font-size: 12px;
+   text-transform: uppercase;
+ }
+ .textCon{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .price{
+   display: flex;
+   justify-content: flex-start;
+   gap: 15px;
+   padding: 0 25px;
+   font-size: 16px;
+}
+.price .new_price{
+   font-weight: bold;
+}
+
+.price span .old_price{
+   color: gray;
+}
+.price .line-span{
+   text-decoration: line-through red;
+}
+.cardContainer .buttons{
+   padding: 15px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.cardContainer .buttons button{
+   padding: 7px 18px;
+   height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: brown;
+    color: bisque;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
+  
+ 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div{
+            background-color: red;
+        }
+    .red{
+        background-color: red;
+    }  
+    #green{
+        background-color: green;
+    }
+    /* universal selector */
+    div p{
+        margin: 0;
+        padding: 0;
+    }
+    a:visited{
+      color:yellow
+     }
+     a:link{
+        collor:green
+     }
+      
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a div
+        <article>
+            <p>i am a para inside div</p>
+        </article>
+          
+    </div>
+    <div id="green">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>
